@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:todoes/homescreen.dart';
+import 'package:google_fonts/google_fonts.dart';
 
 class Nav extends StatefulWidget {
   @override
@@ -26,7 +27,7 @@ class _NavState extends State<Nav> {
       backgroundColor: Colors.white,
       appBar: AppBar(
         title: Text('ToDoes!'),
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.teal,
       ),
       body: Center(
         child: _widgetOptions.elementAt(_SelectedIndex),
@@ -48,7 +49,7 @@ class _NavState extends State<Nav> {
         ],
         currentIndex: _SelectedIndex,
         onTap: _OnItemTap,
-        selectedItemColor: Colors.red,
+        selectedItemColor: Colors.teal,
       ),
     );
   }

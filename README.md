@@ -3,14 +3,14 @@ The TodoApp for everyone!
 To make life easier and more organized.
 
 # Version
-Version 0.0.3
+Version 0.0.4
 
 
 # Changelog
 The updates will be stated here:
-- Navigation Bar has been implemented, nothing to fancy.
-- Nav page has been created also.
-- Colors where changed to 'Red.' (For now).
+- Color was changed from Red to Teal.
+- Implemented Google Fonts, main font is 'Montserrat' at the moment.
+- Fixed some small buggs.
 
 # Issues
 The known issues will be stated here:
